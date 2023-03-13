@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.web_container{
+    display: flex;
+    height: 100%;
+}
+.web_left{
+    display: flex;
+    justify-content:column;
+    width: 100px;
+    border: 1px solid black;
+}
+.web_center{
+    width: 900px;
+    border: 1px solid black;
+    display: flex;
+    justify-content:column;
+}
+.web_right{
+    width: calc(100% - 1000px);
+    border: 1px solid black;
+    display: flex;
+    justify-content:column;
+}
