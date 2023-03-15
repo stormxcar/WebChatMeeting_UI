@@ -15,15 +15,17 @@
     <div class="web_container">
         <div class="web_left">
             <div class="nav_choice">
-                <div class="nav_logo">
-                    <img src="logo.png" alt="Logo_web chat_meeting">
-                </div>
-                <div class="nav_lists">
-                    <a href=""><i class="fa-sharp fa-solid fa-house"></i></a>
-                    <a href=""><i class="fa-sharp fa-solid fa-message"></i></a>
-                    <a href=""><i class="fa-solid fa-calendar"></i></a>
-                    <a href=""><i class="fa-solid fa-video"></i></a>
-                    <a href=""><i class="fa-solid fa-user"></i></a>
+                <div class="nav_top">
+                    <div class="nav_logo">
+                        <img src="logo.png" alt="Logo_web chat_meeting">
+                    </div>
+                    <div class="nav_lists">
+                        <a href=""><i class="fa-sharp fa-solid fa-house"></i></a>
+                        <a href=""><i class="fa-sharp fa-solid fa-message"></i></a>
+                        <a href=""><i class="fa-solid fa-calendar"></i></a>
+                        <a href=""><i class="fa-solid fa-video"></i></a>
+                        <a href=""><i class="fa-solid fa-user"></i></a>
+                    </div>
                 </div>
                 <div class="nav_user">
                     <div class="user_info">
@@ -72,15 +74,13 @@
                 </div>
             </div>
             <div class="center_choice">
-                <ul>
-                    <li><a><i class="fa-solid fa-microphone"></i></a></li>
-                    <li><a><i class="fa-solid fa-video"></i></a></li>
-                    <li><a><i class="fa-solid fa-volume-low"></i></a></li>
-                    <li><button type="submit">End Meeting</button></li>
-                    <li><a><i class="fa-solid fa-display"></i></a></li>
-                    <li><a><i class="fa-sharp fa-solid fa-share-nodes"></i></a></li>
-                    <li><a><i class="fa-solid fa-ellipsis"></i></a></li>
-                </ul>
+                    <a><i class="fa-solid fa-microphone"></i></a>
+                    <a><i class="fa-solid fa-video"></i></a>
+                    <a><i class="fa-solid fa-volume-low"></i></a>
+                    <a href=""><button class = "end_meeting_btn" type="submit">End Meeting</button></a>
+                    <a><i class="fa-solid fa-display"></i></a>
+                    <a><i class="fa-sharp fa-solid fa-share-nodes"></i></a>
+                    <a><i class="fa-solid fa-ellipsis"></i></a>
             </div>
         </div>
         <div class="web_right">
@@ -99,8 +99,42 @@
                             <span>Benjamin Crawford</span>
                         </div>
                         <div class="member_status">
-                            <i class="fa-light fa-microphone"></i>
-                            <i class="fa-sharp fa-regular fa-video"></i>
+                            <i class="fa-solid fa-microphone"></i>
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="member_join_02">
+                        <div class="member_info">
+                            <img src="avatar 1323.png" alt="">
+                            <span>Christian Scott</span>
+                        </div>
+                        <div class="member_status">
+                            <i class="fa-solid fa-microphone-slash"></i>
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="member_join_03">
+                        <div class="member_info">
+                            <img src="avatar 1324.png" alt="">
+                            <span>Deborah Chu</span>
+                        </div>
+                        <div class="member_status">
+                            <i class="fa-solid fa-microphone"></i>
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="member_join_04">
+                        <div class="member_info">
+                            <img src="avatar 1325.png" alt="">
+                            <span>Jordan Nieves</span>
+                        </div>
+                        <div class="member_status">
+                            <i class="fa-solid fa-microphone"></i>
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
                         </div>
                     </div>
                 </div>
@@ -109,39 +143,59 @@
                 <h2>Chat</h2>
                 <div class="chat_meeter">
                     <div class="chat_user">
-                        <img src="avatar 1326.png" alt="">
-                        <h4>Deborah Chu</h4>
-                        <span>1:12 PM</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, officiis.</p>
+                        <div class="user_infor">
+                            <img src="avatar 1326.png" alt="">
+                            <h4>Deborah Chu</h4>
+                            <span>1:12 PM</span>
+                        </div>
+                        <div class="messages">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, aut.</p>
+                        </div>
                     </div>
                     <div class="chat_user">
-                        <img src="avatar 1327.png" alt="">
-                        <h4>Jordan Nieves</h4>
-                        <span>1:12 PM</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, officiis.</p>
+                        <div class="user_infor">
+                            <img src="avatar 1327.png" alt="">
+                            <h4>Jordan Nieves</h4>
+                            <span>1:12 PM</span>
+                        </div>
+                        <div class="messages">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, aut.</p>
+                        </div>
                     </div>
                     <div class="chat_user">
-                        <img src="avatar 1328.png" alt="">
-                        <h4>Benjamin Crawford</h4>
-                        <span>1:12 PM</span>
+                        <div class="user_infor">
+                            <img src="avatar 1328.png" alt="">
+                            <h4>Benjamin Crawford</h4>
+                            <span>1:12 PM</span>
+                        </div>
+                        <div class="messages">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, magni.</p>
+                        </div>
                     </div>
                     <div class="chat_user">
-                        <img src="avatar 1329.png" alt="">
-                        <h4>Christian Scott</h4>
+                        <div class="user_infor">
+                            <img src="avatar 1329.png" alt="">
+                            <h4>Christian Scott</h4>
+                            <span>1:12 PM</span>
+                        </div>
+                        <div class = "messages">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, non?</p>
+                        </div>
                     </div>
                 </div>
-                <div class="chat_input">
-                    <label for="">
-                        <input type="text" placeholder="Add Message">
-                        <button type = "submit">
-                            
-                        </button>
-                    </label> 
-                </div>
+               
+            </div>
+            <div class="chat_input">
+                <label for="" class = "chat">
+                    <input type="text" placeholder="Add Message">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </label> 
             </div>
         </div>
     </div>
 
+    <!-- get icon -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
 </body>
 </html>
